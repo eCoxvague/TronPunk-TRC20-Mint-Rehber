@@ -39,7 +39,8 @@ Anlatacağım olay node üstünden olacak eğer başka yollarla basmak isteyen o
 <img width="210" alt="Ekran Resmi 2023-11-27 19 41 36" src="https://github.com/eCoxvague/TronPunk-TRC20-Mint-Rehber/assets/100167495/23250aeb-23a2-4e7d-872f-fbee207c1c48">
 
 
-``` const TronWeb = require('tronweb');
+```
+const TronWeb = require('tronweb');
 const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider("https://api.trongrid.io");
 const solidityNode = new HttpProvider("https://api.trongrid.io");
